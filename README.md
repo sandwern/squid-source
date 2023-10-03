@@ -20,3 +20,6 @@ Squid from scratch is a Docker container that compiles and runs a Squid proxy.
 6. If the client is not throwaway, delete your browser history.
 7. If the client is not throwaway, delete the certificate from your trusted
    root certificates when you are done.
+
+## Blocking HTTP/S requests to tracking and analytics domains
+Note that this blocking is very aggressive by default. Consider editing the files in ./source/blocklists and rebuilding if the defaults do not work for your purposes.
