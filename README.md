@@ -16,7 +16,7 @@ Squid from scratch is a Docker container that compiles and runs a Squid proxy.
 3. Open up an incognito window of your web browser, preferrably on a
    throwaway virtual machine.
 4. Browse the Internet.
-5. When you are done, undo the proxy configuration to stop using Sneaky Squid.
+5. When you are done, undo the proxy configuration to stop using Squid from scratch.
 6. If the client is not throwaway, delete your browser history.
 7. If the client is not throwaway, delete the certificate from your trusted
    root certificates when you are done.
