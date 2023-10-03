@@ -2,6 +2,9 @@
 
 Squid from scratch is a Docker container that compiles and runs a Squid proxy.
 
+Current Alpine Linux version: 3.18.4
+Current Squid version: 6.3
+
 ## How to use Squid from scratch
 
 1. Deploy it via Docker.
