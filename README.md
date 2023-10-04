@@ -27,3 +27,10 @@ Squid from scratch is a Docker container that compiles and runs a Squid proxy.
 ## Blocking HTTP/S requests to tracking and analytics domains
 
 Note that this blocking is very aggressive by default. Consider editing the files in ./source/blocklists and rebuilding if the defaults do not work for your purposes.
+
+## How to use
+1. $ git clone https://github.com/sandwern/squid-source
+2. $ cd ./squid-source/
+3. $ chmod +x build.sh && ./build.sh
+4. $ docker run -p 3128:3128 -p 4128:4128 -it squid-source
+5. $ docker run -it squid-source bash
