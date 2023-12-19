@@ -34,7 +34,10 @@ Note that this blocking is very aggressive by default. Consider editing the file
 2. $ cd ./squid-source/
 3. $ chmod +x build.sh && ./build.sh
 4. $ docker run -p 3128:3128 -p 4128:4128 -it squid-source
-5. $ docker run -it squid-source bash
+
+## Debug (bash)
+
+$ docker run -it squid-source bash
 
 ## Credits
 
