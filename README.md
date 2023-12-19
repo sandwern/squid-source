@@ -37,7 +37,7 @@ Note that this blocking is very aggressive by default. Consider editing the file
 
 ## Debug (bash)
 
-$ docker run -it squid-source bash
+1. $ docker run -it squid-source bash
 
 ## Credits
 
