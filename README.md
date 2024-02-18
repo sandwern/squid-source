@@ -2,8 +2,8 @@
 
 Squid from scratch is a Docker container that compiles and runs a Squid proxy.
 
-* Alpine Linux version: 3.18.4
-* Squid version: 6.3
+* Alpine Linux version: 3.19.1
+* Squid version: 6.7
 
 ## Description
 
